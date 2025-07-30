@@ -50,7 +50,8 @@ pipeline {
         }
         steps {
             withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
-                  sh '''
+                  sh ''' 
+                         git clone https://github.com/Shudhoo/java-maven-cicd.git
                          echo "Setting Git config"
                          git config --global user.email "shudhowani@gmail.com"
                          git config --global user.name "Shudhoo"

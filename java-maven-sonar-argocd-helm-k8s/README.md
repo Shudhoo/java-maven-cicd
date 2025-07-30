@@ -18,5 +18,5 @@ In my this project I am going to use docker as a jenkins agent and will build my
 ### Step 2. I have used execute shell method to update the manifest repo with the build number and later this repo will be wtached by the ArgoCD Controller in K8s-Cluster to update the image/version of the application 
 
 ### Step 3. 
-For this particular Project of Java and Maven I am using Minikube for my Deployemnt of Application i have installed argocd form operatorshub.io 
+For this particular Project of Java and Maven I am using Minikube for my Deployemnt of Application i have installed argocd form operatorshub.io .
 
